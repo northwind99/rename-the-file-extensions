@@ -1,6 +1,6 @@
 <?php
    
-   //Change multiple files name
+   //Use recursion to change multiple files name
    
   function readFiles1($dirName){
   
@@ -23,8 +23,8 @@
 										
 			 }
 					 
-	    }
 	}
+    }
    
     
     closedir($handle);
